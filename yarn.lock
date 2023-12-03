@@ -2742,10 +2742,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemailer@npm:^6.7.2":
-  version: 6.7.2
-  resolution: "nodemailer@npm:6.7.2"
-  checksum: 3c37a40928448e2f5118a9f2f016c7a4f32228d0e6b7cc7d1834b8001374cc77280dc077a83239420f6daea4c898d9a1f336dfc2273bb7eddaf51a36bd126f72
+"nodemailer@npm:^6.9.7":
+  version: 6.9.7
+  resolution: "nodemailer@npm:6.9.7"
+  checksum: 0cf66d27aed3bd2cbdff9939402cec3d2119c31b2b9ff4af3bcd59f48287ea75b90c0ce2cd9eb0df838164972cd25581b4b723c91fd673e2608bcb28445ccb1b
   languageName: node
   linkType: hard
 
@@ -3397,7 +3397,7 @@ __metadata:
     joi: ^17.5.0
     jsonwebtoken: ^8.5.1
     mongoose: ^6.1.6
-    nodemailer: ^6.7.2
+    nodemailer: ^6.9.7
     nodemon: ^2.0.15
     prettier: ^2.5.1
     pusher: ^5.0.0
