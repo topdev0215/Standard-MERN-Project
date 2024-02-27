@@ -28,7 +28,7 @@
     "nodemailer": "^6.7.2",
     "nodemon": "^2.0.15",
     "pusher": "^5.0.0",
-    "redis": "^4.0.1",
+    "redis": "^4.6.13",
     "request": "^2.88.2",
     "underscore": "^1.13.2",
     "winston": "^3.4.0",
