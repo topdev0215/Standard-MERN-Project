@@ -324,6 +324,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node-fetch@npm:^2.5.7":
+  version: 2.6.11
+  resolution: "@types/node-fetch@npm:2.6.11"
+  dependencies:
+    "@types/node": "*"
+    form-data: ^4.0.0
+  checksum: 180e4d44c432839bdf8a25251ef8c47d51e37355ddd78c64695225de8bc5dc2b50b7bb855956d471c026bb84bd7295688a0960085e7158cbbba803053492568b
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*":
   version: 17.0.8
   resolution: "@types/node@npm:17.0.8"
@@ -954,7 +964,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"combined-stream@npm:^1.0.6, combined-stream@npm:~1.0.6":
+"combined-stream@npm:^1.0.6, combined-stream@npm:^1.0.8, combined-stream@npm:~1.0.6":
   version: 1.0.8
   resolution: "combined-stream@npm:1.0.8"
   dependencies:
@@ -1492,6 +1502,17 @@ __metadata:
   version: 0.6.1
   resolution: "forever-agent@npm:0.6.1"
   checksum: 766ae6e220f5fe23676bb4c6a99387cec5b7b62ceb99e10923376e27bfea72f3c3aeec2ba5f45f3f7ba65d6616965aa7c20b15002b6860833bb6e394dea546a8
+  languageName: node
+  linkType: hard
+
+"form-data@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "form-data@npm:4.0.0"
+  dependencies:
+    asynckit: ^0.4.0
+    combined-stream: ^1.0.8
+    mime-types: ^2.1.12
+  checksum: 01135bf8675f9d5c61ff18e2e2932f719ca4de964e3be90ef4c36aacfc7b9cb2fceb5eca0b7e0190e3383fe51c5b37f4cb80b62ca06a99aaabfcfd6ac7c9328c
   languageName: node
   linkType: hard
 
@@ -3034,16 +3055,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pusher@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "pusher@npm:5.0.0"
+"pusher@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "pusher@npm:5.2.0"
   dependencies:
+    "@types/node-fetch": ^2.5.7
     abort-controller: ^3.0.0
     is-base64: ^1.1.0
     node-fetch: ^2.6.1
     tweetnacl: ^1.0.0
     tweetnacl-util: ^0.15.0
-  checksum: 961745f0c2f7dafebadea9939319f640c7a0d77e446a1ce101c23d3a894ec4d3557636ad596fdadfd10c6c2205c97096ba1dbc1e49be161650bb909e333838fe
+  checksum: 0a1b139d06ae5a22fbee78573e3f540de323c03bdebb1dc3e7077afa2d15a025cb7b434d0f50b868743ca8f2bb51b7353d84a33a60aad25a5df180fe541c5537
   languageName: node
   linkType: hard
 
@@ -3400,7 +3422,7 @@ __metadata:
     nodemailer: ^6.9.9
     nodemon: ^2.0.15
     prettier: ^2.5.1
-    pusher: ^5.0.0
+    pusher: ^5.2.0
     redis: ^4.0.1
     request: ^2.88.2
     underscore: ^1.13.2

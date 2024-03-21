@@ -27,7 +27,7 @@
     "mongoose": "^6.1.6",
     "nodemailer": "^6.9.9",
     "nodemon": "^2.0.15",
-    "pusher": "^5.0.0",
+    "pusher": "^5.2.0",
     "redis": "^4.0.1",
     "request": "^2.88.2",
     "underscore": "^1.13.2",
