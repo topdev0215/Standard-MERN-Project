@@ -1,6 +1,6 @@
 #  Dockerfile for Node Express Backend
 
-FROM node:16.13-alpine
+FROM node:16.19.1-alpine
 
 # Create App Directory
 
